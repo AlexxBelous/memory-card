@@ -42,6 +42,7 @@ body {
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
+<<<<<<< HEAD
 .stat-label {
     font-size: 0.9rem;
     color: #a1a1aa;
@@ -56,6 +57,42 @@ body {
     color: #818cf8;
 }
 
+=======
+.game-header h1 {
+    font-size: 2.5rem;
+    color: #fff;
+    text-align: center;
+}
+
+.stats {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    width: 100%;
+}
+
+.stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.stat-label {
+    font-size: 0.9rem;
+    color: #a1a1aa;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.stat-value {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #818cf8;
+}
+
+>>>>>>> app-part__1
 .reset-btn {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: white;
@@ -74,6 +111,23 @@ body {
     box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
 }
 
+<<<<<<< HEAD
+=======
+.reset-btn:active {
+    transform: translateY(0);
+}
+
+.win-message {
+    background: rgba(15, 23, 42, 0.95);
+    padding: 30px 50px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    animation: slideDown 0.5s ease-out;
+}
+
+>>>>>>> app-part__1
 @keyframes slideDown {
     from {
         opacity: 0;
@@ -104,10 +158,18 @@ body {
 }
 
 .card {
+<<<<<<< HEAD
     position: relative;
     aspect-ratio: 1;
     cursor: pointer;
     transition: transform 0.2s;
+=======
+    aspect-ratio: 1;
+    position: relative;
+    cursor: pointer;
+    transform-style: preserve-3d;
+    transition: transform 0.6s;
+>>>>>>> app-part__1
 }
 
 .card-front,
@@ -133,7 +195,10 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> app-part__1
 .card-back {
     background: #1e1e1e;
     font-size: 4rem;
@@ -141,7 +206,10 @@ body {
     border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> app-part__1
 .card.flipped .card-front {
     opacity: 0;
     pointer-events: none;
@@ -170,6 +238,7 @@ body {
     transform: scale(0.95);
 }
 
+<<<<<<< HEAD
 .stats {
     display: flex;
     width: 50%;
@@ -184,10 +253,13 @@ body {
 }
 
 
+=======
+>>>>>>> app-part__1
 @media (max-width: 768px) {
     .game-header h1 {
         font-size: 2rem;
     }
+<<<<<<< HEAD
     .cards-grid {
         gap: 10px;
     }
@@ -200,22 +272,58 @@ body {
     .stats {
         gap: 20px;
     }
+=======
+
+    .cards-grid {
+        gap: 10px;
+    }
+
+    .card-front,
+    .card-back {
+        font-size: 2.5rem;
+    }
+
+    .card-back {
+        font-size: 3rem;
+    }
+
+    .stats {
+        gap: 20px;
+    }
+
+>>>>>>> app-part__1
     .stat-value {
         font-size: 1.5rem;
     }
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> app-part__1
 @media (max-width: 480px) {
     .game-header {
         padding: 20px;
     }
+<<<<<<< HEAD
     .game-header h1 {
         font-size: 1.5rem;
     }
     .card-front {
         font-size: 2rem;
     }
+=======
+
+    .game-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .card-front,
+    .card-back {
+        font-size: 2rem;
+    }
+
+>>>>>>> app-part__1
     .card-back {
         font-size: 2.5rem;
     }
